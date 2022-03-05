@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  body header .navbar-collapse {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body header .navbar-collapse .navbar-nav li.nav-item .dropdown-menu {
+    background-color: #4297a0 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  body header .navbar .navbar-nav {
+    gap: 1.5rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

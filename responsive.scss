@@ -1,0 +1,43 @@
+$misty-blue: #2f5061;
+$coral: #e57f84;
+$ivory: #f4eae6;
+$teal-green: #4297a0;
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  body {
+    header {
+      .navbar-collapse {
+        justify-content: center;
+        .navbar-nav {
+          li.nav-item {
+            .dropdown-menu {
+              background-color: $teal-green !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  body {
+    header {
+      .navbar {
+        .navbar-nav {
+          gap: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
