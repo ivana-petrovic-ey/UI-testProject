@@ -162,6 +162,18 @@ body {
 
   // MAIN START
   main {
+    .section-carousel {
+      padding: 2rem 3rem;
+      .owl-carousel {
+        position: relative;
+        .owl-nav {
+          display: none;
+        }
+        .owl-dots {
+          margin: 1rem;
+        }
+      }
+    }
   } // MAIN END
 
   // FOOTER START

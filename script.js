@@ -1,10 +1,26 @@
 $(document).ready(function () {
-  //   function changeDropdownIcon(x) {
-  //     x.classList.remove("fa-plus");
-  //     x.classList.add("fa-minus");
-  //   }
-
-  $(".dropdown-menu").onmouseleave(function () {
-    this.css("background-color", "$misty-blue");
+  $(".owl-carousel").owlCarousel({
+    loop: false,
+    dots: true,
+    autoplay: false,
+    pagination: true,
+    autoplayTimeout: 4000,
+    startPosition: 0,
+    responsiveClass: true,
+    margin: 20,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      576: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+    },
   });
+
+  //
 });

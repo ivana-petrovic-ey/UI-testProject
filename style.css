@@ -149,4 +149,20 @@ body header .navbar .navbar-collapse ul.navbar-nav li.nav-item .dropdown-menu .d
 body header .navbar .navbar-collapse ul.navbar-nav li.nav-itemfocus-visible {
   outline: none;
 }
+
+body main .section-carousel {
+  padding: 2rem 3rem;
+}
+
+body main .section-carousel .owl-carousel {
+  position: relative;
+}
+
+body main .section-carousel .owl-carousel .owl-nav {
+  display: none;
+}
+
+body main .section-carousel .owl-carousel .owl-dots {
+  margin: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
