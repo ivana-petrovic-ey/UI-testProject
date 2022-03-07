@@ -237,4 +237,55 @@
 * body main .section-accordion .card:focus-visible {
   outline: none;
 }
+
+* body main .services {
+  color: #2f5061;
+  margin: 2rem 0;
+}
+
+* body main .services .col-md-4 article {
+  text-align: center;
+  background-color: #4297a0;
+  color: #f4eae6;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+* body main .services .col-md-4 article h5 {
+  padding: 2rem 0;
+  background-color: #2f5061;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+* body main .services .col-md-4 article h5 span {
+  font-weight: 300;
+  font-size: smaller;
+}
+
+* body main .services .col-md-4 article p {
+  font-weight: 300;
+  padding: 2rem;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+* body main .services .col-md-4 article button {
+  padding: 0.5rem 1.5rem;
+  background-color: #f4eae6;
+  color: #2f5061;
+  margin-bottom: 2rem;
+  border: none;
+  outline: none;
+  font-weight: 500;
+}
+
+* body main .services .col-md-4 article button:hover {
+  background-color: #e57f84;
+  color: #f4eae6;
+}
+
+* body main .services .col-md-4 article:hover {
+  opacity: 0.95;
+}
 /*# sourceMappingURL=style.css.map */

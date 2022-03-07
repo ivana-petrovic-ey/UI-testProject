@@ -3,6 +3,7 @@
 
 // color variables
 $misty-blue: #2f5061;
+$misty-blue-transparent: rgba(47, 80, 97, 0.5);
 $coral: #e57f84;
 $ivory: #f4eae6;
 $ivory-transparent: rgba(244, 234, 230, 0.1);
@@ -15,7 +16,6 @@ $teal-green: #4297a0;
     max-width: 100%;
     margin: 0;
     font-family: "Poppins", sans-serif;
-
     overflow-x: hidden;
     scrollbar-gutter: auto;
     background-color: $ivory;
@@ -149,6 +149,7 @@ $teal-green: #4297a0;
 
     // MAIN START
     main {
+      // SECTION CAROUSEL
       .section-carousel {
         color: $misty-blue;
         margin: 2rem 0;
@@ -163,6 +164,7 @@ $teal-green: #4297a0;
         }
       }
 
+      // SECTION ACCORDION
       .section-accordion {
         margin: 2rem 0;
         h1 {
@@ -211,6 +213,51 @@ $teal-green: #4297a0;
           }
           &:focus-visible {
             outline: none;
+          }
+        }
+      }
+
+      // SECTION SERVICES
+      .services {
+        color: $misty-blue;
+        margin: 2rem 0;
+        .col-md-4 {
+          article {
+            text-align: center;
+            background-color: $teal-green;
+            color: $ivory;
+            transition: 0.1s ease-in-out;
+            h5 {
+              padding: 2rem 0;
+              background-color: $misty-blue;
+              transition: 0.1s ease-in-out;
+
+              span {
+                font-weight: 300;
+                font-size: smaller;
+              }
+            }
+            p {
+              font-weight: 300;
+              padding: 2rem;
+              transition: 0.1s ease-in-out;
+            }
+            button {
+              padding: 0.5rem 1.5rem;
+              background-color: $ivory;
+              color: $misty-blue;
+              margin-bottom: 2rem;
+              border: none;
+              outline: none;
+              font-weight: 500;
+              &:hover {
+                background-color: $coral;
+                color: $ivory;
+              }
+            }
+            &:hover {
+              opacity: 0.95;
+            }
           }
         }
       }

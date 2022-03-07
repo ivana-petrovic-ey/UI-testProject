@@ -7,6 +7,12 @@
   body header .navbar-collapse .navbar-nav li.nav-item .dropdown-menu {
     background-color: #4297a0 !important;
   }
+  body .services .col-md-4 article h5 {
+    font-size: 1rem;
+  }
+  body .services .col-md-4 article p {
+    font-size: 0.75rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -15,6 +21,12 @@
   }
   body header .navbar .navbar-nav .nav-item .nav-link {
     font-size: 1.2rem;
+  }
+  body .services .col-md-4 article h5 {
+    font-size: 1.2rem;
+  }
+  body .services .col-md-4 article p {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

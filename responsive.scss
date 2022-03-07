@@ -22,6 +22,19 @@ $teal-green: #4297a0;
         }
       }
     }
+
+    .services {
+      .col-md-4 {
+        article {
+          h5 {
+            font-size: 1rem;
+          }
+          p {
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -36,6 +49,19 @@ $teal-green: #4297a0;
             .nav-link {
               font-size: 1.2rem;
             }
+          }
+        }
+      }
+    }
+
+    .services {
+      .col-md-4 {
+        article {
+          h5 {
+            font-size: 1.2rem;
+          }
+          p {
+            font-size: 1rem;
           }
         }
       }
