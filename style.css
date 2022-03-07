@@ -270,22 +270,87 @@
   transition: 0.1s ease-in-out;
 }
 
-* body main .services .col-md-4 article button {
+* body main .services .col-md-4 article .articleButton {
   padding: 0.5rem 1.5rem;
-  background-color: #f4eae6;
-  color: #2f5061;
+  color: #f4eae6;
+  background-color: #2f5061;
   margin-bottom: 2rem;
   border: none;
   outline: none;
-  font-weight: 500;
+  font-weight: 300;
 }
 
-* body main .services .col-md-4 article button:hover {
+* body main .services .col-md-4 article .articleButton:hover {
   background-color: #e57f84;
   color: #f4eae6;
 }
 
+* body main .services .col-md-4 article .modal {
+  color: #2f5061;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+* body main .services .col-md-4 article .modal .modal-content {
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+* body main .services .col-md-4 article .modal .modal-content .modal-header,
+* body main .services .col-md-4 article .modal .modal-content .modal-footer {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2f5061;
+  color: #f4eae6;
+  border-radius: 0;
+  outline: none;
+  border: 0;
+}
+
+* body main .services .col-md-4 article .modal .modal-content .modal-header .close,
+* body main .services .col-md-4 article .modal .modal-content .modal-footer .close {
+  font-size: xxx-large;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+  text-shadow: none;
+  color: #f4eae6;
+  opacity: 1;
+}
+
+* body main .services .col-md-4 article .modal .modal-content .modal-body {
+  background-color: #f4eae6;
+  color: #2f5061;
+  border-radius: 0;
+  outline: none;
+  border: 0;
+  padding: 0;
+}
+
+* body main .services .col-md-4 article .modal .modalButton {
+  background-color: #4297a0;
+  color: #f4eae6;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+}
+
+* body main .services .col-md-4 article .modal .modalButton:hover {
+  background-color: rgba(229, 127, 132, 0.9);
+}
+
 * body main .services .col-md-4 article:hover {
-  opacity: 0.95;
+  background-color: rgba(66, 151, 160, 0.9);
+}
+
+* body main .services .col-md-4 article:hover h5 {
+  background-color: rgba(47, 80, 97, 0.9);
 }
 /*# sourceMappingURL=style.css.map */

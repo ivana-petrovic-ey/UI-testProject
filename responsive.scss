@@ -5,12 +5,22 @@ $teal-green: #4297a0;
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+  body {
+    header {
+      h1 {
+        font-size: 2.2rem !important;
+      }
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   body {
     header {
+      h1 {
+        font-size: 2.3rem !important;
+      }
       .navbar-collapse {
         justify-content: flex-end;
         .navbar-nav {
@@ -43,6 +53,9 @@ $teal-green: #4297a0;
   body {
     header {
       .navbar {
+        h1 {
+          font-size: 2.4rem !important;
+        }
         .navbar-nav {
           gap: 1.5rem;
           .nav-item {
@@ -71,4 +84,13 @@ $teal-green: #4297a0;
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+  body {
+    header {
+      .navbar {
+        h1 {
+          font-size: 2.5rem !important;
+        }
+      }
+    }
+  }
 }

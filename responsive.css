@@ -1,4 +1,13 @@
+@media (min-width: 576px) {
+  body header h1 {
+    font-size: 2.2rem !important;
+  }
+}
+
 @media (min-width: 768px) {
+  body header h1 {
+    font-size: 2.3rem !important;
+  }
   body header .navbar-collapse {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
@@ -16,6 +25,9 @@
 }
 
 @media (min-width: 992px) {
+  body header .navbar h1 {
+    font-size: 2.4rem !important;
+  }
   body header .navbar .navbar-nav {
     gap: 1.5rem;
   }
@@ -27,6 +39,12 @@
   }
   body .services .col-md-4 article p {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body header .navbar h1 {
+    font-size: 2.5rem !important;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

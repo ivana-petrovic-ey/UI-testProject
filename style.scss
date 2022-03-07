@@ -3,11 +3,13 @@
 
 // color variables
 $misty-blue: #2f5061;
-$misty-blue-transparent: rgba(47, 80, 97, 0.5);
+$misty-blue-hover: rgba(47, 80, 97, 0.9);
 $coral: #e57f84;
+$coral-hover: rgba(229, 127, 132, 0.9);
 $ivory: #f4eae6;
 $ivory-transparent: rgba(244, 234, 230, 0.1);
 $teal-green: #4297a0;
+$teal-green-hover: rgba(66, 151, 160, 0.9);
 
 // styles
 * {
@@ -242,21 +244,78 @@ $teal-green: #4297a0;
               padding: 2rem;
               transition: 0.1s ease-in-out;
             }
-            button {
+            .articleButton {
               padding: 0.5rem 1.5rem;
-              background-color: $ivory;
-              color: $misty-blue;
+              color: $ivory;
+              background-color: $misty-blue;
               margin-bottom: 2rem;
               border: none;
               outline: none;
-              font-weight: 500;
+              font-weight: 300;
               &:hover {
                 background-color: $coral;
                 color: $ivory;
               }
             }
+
+            // MODAL
+            .modal {
+              color: $misty-blue;
+              border: none;
+              border-radius: 0;
+              outline: none;
+
+              .modal-content {
+                border: none;
+                border-radius: 0;
+                outline: none;
+                .modal-header,
+                .modal-footer {
+                  text-align: left;
+                  display: flex;
+                  align-items: center;
+                  background-color: $misty-blue;
+                  color: $ivory;
+                  border-radius: 0;
+                  outline: none;
+                  border: 0;
+                  .close {
+                    font-size: xxx-large;
+                    font-weight: 200;
+                    padding: 0;
+                    margin: 0;
+                    text-shadow: none;
+                    color: $ivory;
+                    opacity: 1;
+                  }
+                }
+                .modal-body {
+                  background-color: $ivory;
+                  color: $misty-blue;
+                  border-radius: 0;
+                  outline: none;
+                  border: 0;
+                  padding: 0;
+                }
+              }
+
+              .modalButton {
+                background-color: $teal-green;
+                color: $ivory;
+                padding: 0.5rem 1.5rem;
+                border: none;
+                outline: none;
+                &:hover {
+                  background-color: $coral-hover;
+                }
+              }
+            }
+
             &:hover {
-              opacity: 0.95;
+              background-color: $teal-green-hover;
+              h5 {
+                background-color: $misty-blue-hover;
+              }
             }
           }
         }
