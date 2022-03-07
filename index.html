@@ -35,93 +35,214 @@
   <body>
     <!-- HEADER START -->
     <header>
-      <!-- NAVBAR START -->
-      <nav class="navbar navbar-expand-md navbar-light">
-        <a href="./index.html">
-          <h1>LOGO</h1>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="bars"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">HOME </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
-            </li>
+      <div class="container">
+        <!-- NAVBAR START -->
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a href="./index.html">
+            <h1>LOGO</h1>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">HOME </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutCarousel">ABOUT</a>
+              </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-toggle="dropdown"
-                aria-expanded="false"
-                href="#"
-              >
-                FEATURES
-              </a>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="#">Remote Assistance</a>
-                <a class="dropdown-item" href="#">Marketing Management</a>
-                <a class="dropdown-item" href="#">Safety Protocols</a>
-              </div>
-            </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                  href="#"
+                >
+                  FEATURES
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#headingOne"
+                    >Remote Assistance</a
+                  >
+                  <a class="dropdown-item" href="#headingTwo"
+                    >Marketing Management</a
+                  >
+                  <a class="dropdown-item" href="#headingThree"
+                    >Safety Protocols</a
+                  >
+                </div>
+              </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-toggle="dropdown"
-                aria-expanded="false"
-              >
-                SERVICES
-              </a>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="#">UI/UX design</a>
-                <a class="dropdown-item" href="#">Advertizing</a>
-                <a class="dropdown-item" href="#">Easy Customization</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SERVICES
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#">UI/UX design</a>
+                  <a class="dropdown-item" href="#">Advertizing</a>
+                  <a class="dropdown-item" href="#">Easy Customization</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <!-- MAIN START -->
     <main>
       <!-- SETION CAROUSEL START -->
       <section class="section-carousel">
-        <div class="owl-carousel owl-theme">
-          <div class="item">
-            <img src="./img/img1.png" alt="" />
+        <div class="container">
+          <h1 class="text-center m-5" id="aboutCarousel">ABOUT CAROUSEL</h1>
+          <p class="text-center mb-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            enim ipsa vel officiis veritatis vero. Ducimus tempora veritatis
+            voluptas quia perspiciatis ea quaerat atque quidem illo!
+          </p>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="./img/img1.png" alt="" />
+            </div>
+            <div class="item">
+              <img src="./img/img2.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="./img/img3.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="./img/img4.jpg" alt="" />
+            </div>
           </div>
-          <div class="item">
-            <img src="./img/img2.jpg" alt="" />
-          </div>
-          <div class="item">
-            <img src="./img/img3.jpg" alt="" />
-          </div>
-          <div class="item">
-            <img src="./img/img4.jpg" alt="" />
+        </div>
+      </section>
+
+      <!-- SECTION ACCORDION START -->
+      <section class="section-accordion" id="section-accordion">
+        <div class="container">
+          <h1 class="text-center">FEATURES</h1>
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">Remote Assistance</h5>
+                <button
+                  class="btn btn-link btn-block text-left"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  <span class="fa fa-plus"></span>
+                </button>
+              </div>
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Harum modi neque vitae suscipit ex quod corrupti.
+                  </p>
+                  <div class="mb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">Marketing Management</h5>
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <span class="fa fa-plus"></span>
+                  </button>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Harum modi neque vitae suscipit.
+                    </p>
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Harum modi neque vitae suscipit ex quod corrupti
+                      similique!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">Safety Protocols</h5>
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <span class="fa fa-plus"></span>
+                  </button>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Harum modi neque vitae suscipit ex quod corrupti
+                      similique! Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

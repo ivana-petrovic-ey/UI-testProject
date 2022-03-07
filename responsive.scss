@@ -12,7 +12,7 @@ $teal-green: #4297a0;
   body {
     header {
       .navbar-collapse {
-        justify-content: center;
+        justify-content: flex-end;
         .navbar-nav {
           li.nav-item {
             .dropdown-menu {
@@ -32,6 +32,11 @@ $teal-green: #4297a0;
       .navbar {
         .navbar-nav {
           gap: 1.5rem;
+          .nav-item {
+            .nav-link {
+              font-size: 1.2rem;
+            }
+          }
         }
       }
     }
