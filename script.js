@@ -21,4 +21,11 @@ $(document).ready(function () {
       },
     },
   });
+
+  // accordion funnction to change + / -
+  $(".card .card-header").click(function () {
+    $(this).find("span").toggleClass("fa-plus fa-minus");
+    $(".card-header").not($(this)).find("span").removeClass("fa-minus");
+    $(".card-header").not($(this)).find("span").addClass("fa-plus");
+  });
 });

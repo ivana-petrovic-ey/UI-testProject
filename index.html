@@ -150,17 +150,18 @@
           <h1 class="text-center">FEATURES</h1>
           <div class="accordion" id="accordionExample">
             <div class="card">
-              <div class="card-header" id="headingOne">
+              <div
+                role="button"
+                class="card-header"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+                id="headingOne"
+              >
                 <h5 class="mb-0">Remote Assistance</h5>
-                <button
-                  class="btn btn-link btn-block text-left"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                  aria-expanded="false"
-                  aria-controls="collapseOne"
-                >
-                  <span class="fa fa-plus"></span>
+                <button type="button" class="btn btn-link btn-block text-left">
+                  <span class="fa fa-minus"></span>
                 </button>
               </div>
               <div
@@ -179,69 +180,75 @@
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div class="card">
-                <div class="card-header" id="headingTwo">
-                  <h5 class="mb-0">Marketing Management</h5>
-                  <button
-                    class="btn btn-link btn-block text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    <span class="fa fa-plus"></span>
-                  </button>
-                </div>
-                <div
-                  id="collapseTwo"
-                  class="collapse"
-                  aria-labelledby="headingTwo"
-                  data-parent="#accordionExample"
+            <div class="card">
+              <div
+                class="card-header"
+                role="button"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+                id="headingTwo"
+              >
+                <h5 class="mb-0">Marketing Management</h5>
+                <button
+                  type="button"
+                  class="btn btn-link btn-block text-left collapsed"
                 >
-                  <div class="card-body">
-                    <p class="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Harum modi neque vitae suscipit.
-                    </p>
-                    <p class="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Harum modi neque vitae suscipit ex quod corrupti
-                      similique!
-                    </p>
-                  </div>
+                  <span class="fa fa-plus"></span>
+                </button>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Harum modi neque vitae suscipit.
+                  </p>
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Harum modi neque vitae suscipit ex quod corrupti similique!
+                  </p>
                 </div>
               </div>
+            </div>
 
-              <div class="card">
-                <div class="card-header" id="headingThree">
-                  <h5 class="mb-0">Safety Protocols</h5>
-                  <button
-                    class="btn btn-link btn-block text-left collapsed"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    <span class="fa fa-plus"></span>
-                  </button>
-                </div>
-                <div
-                  id="collapseThree"
-                  class="collapse"
-                  aria-labelledby="headingThree"
-                  data-parent="#accordionExample"
+            <div class="card">
+              <div
+                class="card-header"
+                role="button"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+                id="headingThree"
+              >
+                <h5 class="mb-0">Safety Protocols</h5>
+                <button
+                  type="button"
+                  class="btn btn-link btn-block text-left collapsed"
                 >
-                  <div class="card-body">
-                    <p class="mb-0">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Harum modi neque vitae suscipit ex quod corrupti
-                      similique! Lorem ipsum dolor sit amet consectetur
-                      adipisicing elit.
-                    </p>
-                  </div>
+                  <span class="fa fa-plus"></span>
+                </button>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p class="mb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Harum modi neque vitae suscipit ex quod corrupti similique!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
                 </div>
               </div>
             </div>
@@ -435,7 +442,11 @@
     </main>
 
     <!-- FOOTER START -->
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <p class="m-0 p-5 text-center">Copyright &copy; 2022 Ivana EY</p>
+      </div>
+    </footer>
 
     <!-- jQuery -->
     <script

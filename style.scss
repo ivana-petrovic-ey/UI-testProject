@@ -176,6 +176,7 @@ $teal-green-hover: rgba(66, 151, 160, 0.9);
         .card {
           border-radius: 0;
           border: 0;
+          background-color: transparent;
 
           .card-header {
             background-color: $misty-blue;
@@ -194,6 +195,7 @@ $teal-green-hover: rgba(66, 151, 160, 0.9);
               display: inline-block;
               color: $ivory;
               width: auto;
+              text-decoration: none;
               &:focus,
               &:focus-visible {
                 outline: none;
@@ -222,7 +224,7 @@ $teal-green-hover: rgba(66, 151, 160, 0.9);
       // SECTION SERVICES
       .services {
         color: $misty-blue;
-        margin: 2rem 0;
+        margin: 2rem 0 5rem 0;
         .col-md-4 {
           article {
             text-align: center;
@@ -324,6 +326,10 @@ $teal-green-hover: rgba(66, 151, 160, 0.9);
 
     // FOOTER START
     footer {
+      background-color: $misty-blue;
+      color: $ivory;
+      font-weight: 300;
+      font-size: 0.75rem;
     } // FOOTER END
   }
 }
